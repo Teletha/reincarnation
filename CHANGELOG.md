@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.10.0](https://github.com/teletha/reincarnation/compare/v1.9.0...v1.10.0) (2024-12-09)
+
+
+### Features
+
+* chained assignment outputs clean code ([3d34be9](https://github.com/teletha/reincarnation/commit/3d34be99007dfdaee7f83a7d578893bd9094a914))
+* drop LocalVariables#register ([2df283a](https://github.com/teletha/reincarnation/commit/2df283a5ddb91dec2c3a117301d4773d41eecb56))
+* provide Low-Line-Verification system in test case ([ad05b8e](https://github.com/teletha/reincarnation/commit/ad05b8eaa7502da3f92fb13ee927961618f28d78))
+* special handling on MethodHandle#invoke and #invokeExact ([d88be08](https://github.com/teletha/reincarnation/commit/d88be08feee5a2b66851925fe1e5978502421f19))
+* support class-file-policy annotation ([ad3d1d2](https://github.com/teletha/reincarnation/commit/ad3d1d2a7e598cb41416c8356213f3a6a51feae0))
+* support native method ([34262d1](https://github.com/teletha/reincarnation/commit/34262d1b5917c52adbb3baa67950a873506bc4be))
+* support the shorthand array initialization with declaraiton ([9ba7305](https://github.com/teletha/reincarnation/commit/9ba73052fb64916f8d565f5de2b67444b2be74af))
+* support various chained-assignment patterns ([5d38553](https://github.com/teletha/reincarnation/commit/5d38553c5a89b2215ebd84d6afabd5bfce190064))
+
+
+### Bug Fixes
+
+* call method with assignment parameter ([5a0be17](https://github.com/teletha/reincarnation/commit/5a0be174dba899a32a54b27e5297349d90188621))
+* error handling in test ([4ddfca0](https://github.com/teletha/reincarnation/commit/4ddfca0b8d7aa4f20c221799f84ae98b465c3ae6))
+* OpenrandUtil#load(String) can accept the bytecode type name ([070dd2e](https://github.com/teletha/reincarnation/commit/070dd2e14c9c4202c631148c4966661c37c43b33))
+* Reincarnation cannot access to jdk-core-classes ([0df4951](https://github.com/teletha/reincarnation/commit/0df495181ee351e48c1c7d9e6ac59e058db66c7f))
+* remove unused dependency (psychopath) ([d6b536d](https://github.com/teletha/reincarnation/commit/d6b536d5888de610aacd30d190910d60d429f7fa))
+* specialization on parameterized type variable ([12b395e](https://github.com/teletha/reincarnation/commit/12b395ef270dcebcf17bf01460e3fad2d67e38d5))
+* vararg coder is broken ([15c0bbb](https://github.com/teletha/reincarnation/commit/15c0bbb34434222070a382e7e9c9fc4c7fa5ba2c))
+
 ## [1.9.0](https://github.com/teletha/reincarnation/compare/v1.8.0...v1.9.0) (2024-11-11)
 
 
